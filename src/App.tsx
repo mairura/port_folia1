@@ -16,7 +16,7 @@ function App() {
     <div
     className="h-full overflow-x-hidden bg-cover bg-center bg-no-repeat"
     style={{
-      backgroundImage: `url('../src/assets/Background Pattern.svg')`, 
+      backgroundImage: `url('/Background Pattern.svg')`, 
     }}
   >
       <Navbar />
