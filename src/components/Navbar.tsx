@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="text-white px-8 py-4 w-full fixed top-0 bg-black z-50">
-      <div className="flex items-center md:justify- justify-between">
+      <div className="flex items-center md:justify-around justify-between">
         <ScrollLink
           to="home"
           smooth={true}

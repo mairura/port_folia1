@@ -9,16 +9,21 @@ const About = () => {
 				EXPLORE NOW
 			</p>
 			<p className="md:w-1/2 text-lg px-5 pb-7 font-light pt-5">
-				As a passionate software engineer, I thrive on the intricate dance
-				between logic and creativity. Currently immersed in the dynamic world of
-				WebHR, my expertise centers around React Native, where I seamlessly
-				blend technology with innovation.
+				I specialize in building scalable products that enhance business
+				performance and drive measurable growth. Over the years, I’ve worked
+				with a diverse set of tools and languages—ranging from frontend
+				technologies like Next.js, React.js, Tailwind CSS, Framer Motion, and
+				Redux, to backend systems where my current passion lies.
 			</p>
-			<p className="md:not-only-of-type:w-1/2 text-lg px-5 pt-2 pb-7 font-light">
-				With a fervor for crafting elegant solutions, I navigate the
-				ever-evolving landscape of software development. My journey involves
-				translating concepts into code, creating seamless user experiences, and
-				constantly pushing the boundaries of what's possible
+			<p className="md:w-1/2 text-lg px-5 pt-2 pb-7 font-light">
+				Lately, I’ve been diving deeper into backend architecture—working with
+				Node.js, PHP, and both SQL and NoSQL databases. From MongoDB aggregation
+				pipelines to Redis caching strategies, I’m constantly exploring how to
+				handle large datasets efficiently and apply scalable design patterns.
+				I'm also actively learning Java with Spring Boot to strengthen my
+				backend expertise. Whether you’re building something new or refining an
+				existing system, I’m always open to collaborate, contribute, or even
+				learn together.
 			</p>
 		</div>
 	);

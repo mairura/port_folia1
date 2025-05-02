@@ -1,5 +1,14 @@
 const Work = () => {
-	const skills = ["NextJS", "JavaScript", "NodeJS"];
+	const skills = [
+		"NextJS",
+		"JavaScript",
+		"NodeJS",
+		"TypeScript",
+		"ReactJS",
+		"TailwindCSS",
+		"MPesa API",
+		"Stripe API",
+	];
 
 	return (
 		<div
@@ -15,8 +24,8 @@ const Work = () => {
 				<div className="w-full justify-between flex items-center p-5">
 					<h3 className="text-sm md:text-lg">
 						{" "}
-						<span className="font-bold md:text-xl text-md">Ngeni Labs</span> | Frontend
-						Developer
+						<span className="font-bold md:text-xl text-md">Ngeni Labs</span> |
+						Frontend Developer
 					</h3>
 					<p className="text-sm md:text-lg">March, 2022 - Dec, 2024</p>
 				</div>
@@ -32,7 +41,7 @@ const Work = () => {
 					{skills.map((skill) => (
 						<p
 							key={skill}
-							className="relative text-sm border border-white px-3 py-2 rounded-md text-white transition duration-300 hover:border-[#FF9051] hover:shadow-[0_0_10px_#FF9051]"
+							className="relative text-sm border border-white px-3 py-2 rounded-md text-white transition duration-300 hover:border-[#FF9051] hover:shadow-[0_0_10px_#FF9051] cursor-pointer"
 						>
 							{skill}
 						</p>

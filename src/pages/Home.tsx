@@ -22,12 +22,12 @@ const Home = () => {
 				<span className="bg-gradient-to-r from-[#9C83FF] to-[#FF905F] bg-clip-text text-transparent">
 					Chill
 				</span>{" "}
-				🍿
 			</p>
-			<p className="text-lg font-light px-5 md:w-200 pt-2 pb-7">
-				Passionate Software Engineer with a focus on React Native development,
-				dedicated to crafting elegant and user-friendly mobile applications.
+			<p className="text-lg font-light px-5 md:w-200 pt-2 pb-3">
+				Building scalable web apps with a love for performance, backend and
+				cloud. Let’s connect and code something awesome.
 			</p>
+			<p className="pb-7 text-[3rem]">☕</p>
 			<a href={whatsappLink} target="_blank" rel="noopener noreferrer">
 				<button className="relative border border-white cursor-pointer px-8 py-4 rounded-full text-white transition duration-300 hover:border-[#FF9051] hover:shadow-[0_0_10px_#FF9051]">
 					Contact Me

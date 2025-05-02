@@ -7,6 +7,7 @@ import MongoDB from "../assets/Mongodb-PNG-Pic.webp";
 import Python from "../assets/Python_logo.webp";
 import Java from "../assets/Java_logo.webp";
 import Docker from "../assets/Docker_logo.webp";
+import PHP from "../assets/PHP.webp";
 
 const Culture = () => {
 	return (
@@ -96,6 +97,15 @@ const Culture = () => {
 						src={Docker}
 						alt="Docker"
 						className="w-16 h-16 rounded-lg transition-transform transform hover:scale-90"
+					/>
+				</a>
+
+				{/* PHP logo */}
+				<a href="/projects/php">
+					<img
+						src={PHP}
+						alt="PHP"
+						className="w-22 h-16 rounded-lg transition-transform transform hover:scale-90"
 					/>
 				</a>
 			</div>
